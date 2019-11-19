@@ -1,0 +1,123 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    /* background: #f4f4f4; */
+    font-family: Avenir, Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../img/conference-conference-room-dark-946530.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.filter{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #2222226e;
+}
+header{
+    display: flex;
+    /* background: #d2d2d241; */
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2px;
+    
+}
+
+header svg{
+    /* color: #f4f4f4 !important; */
+    fill: #f4f4f4;
+    padding-top: .3em;
+    transition: 0.5s;
+}
+header svg:hover{
+    /* color: #f4f4f4 !important; */
+    fill: #4cebae;
+    padding-top: .3em;
+    cursor: pointer;
+}
+#navbar{
+    display: inline;
+    margin-left: auto;
+}
+.n-link{
+    text-decoration: none;
+    font-size: 18px;
+    /* font-weight: 200; */
+    margin-left: 15px;
+    color: #f4f4f4 !important;
+    transition: 0.5s;
+}
+.n-link:hover{
+    color: #4cebae !important;
+}
+#grid-container{
+    padding: 0%;
+    margin: 0%;
+    width: 60%;
+    height: auto;
+    /* overflow: hidden; */
+    position: relative;
+    top: 25%;
+    left: 20%;
+    /* background: #333; */
+}
+.cover-head{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: #f4f4f4 !important;
+    font-size: 48px;
+    font-weight: 500;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+.cover-head span{
+    background: #4cebae;
+    padding: 2px 4px;
+}
+.cover-text{
+    margin: 0;
+    padding-top: 1em;
+    text-align: center;
+    color: #f4f4f4 !important;
+    font-size: 24px;
+    font-weight: 200;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+.btn{
+    padding: 15px 30px !important;
+    border: #f4f4f4 solid 2px;
+    border-radius: 3px;
+    background: #fff;
+    color: #000;
+    font-size: 18px;
+    transition: 0.8s;
+}
+.cta{
+    margin: 3rem 0;
+    animation-duration: 2s;
+    animation-delay: 3s;
+}
+.rem-btn{
+    display: block;
+    margin: auto;
+    /* align-self: center; */
+    /* background-color: #f4f4f4; */
+    /* color: #333; */
+}
+.rem-btn:hover{
+    border: #fd7f18 solid 2px;
+    border-radius: 3px;
+    background-color: #fd7f18;
+    color: #fff;
+    cursor: pointer;
+}
+.rem-btn:focus{
+    border-radius: 3px;
+    outline: #f4f4f473 solid 2px;
+    cursor: pointer;
+}
