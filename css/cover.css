@@ -80,9 +80,10 @@ header svg:hover{
 }
 .cover-text{
     margin: 0;
-    padding-top: 1em;
+    padding-top: 3em;
+    padding-bottom: 3em;
     text-align: center;
-    color: #f4f4f4 !important;
+    color: #f4f4f4f1 !important;
     font-size: 20px;
     font-weight: 100;
     animation-duration: 3s;
